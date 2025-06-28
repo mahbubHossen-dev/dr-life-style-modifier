@@ -14,7 +14,7 @@ import { Pagination } from 'swiper/modules';
 
 const Testimonial = () => {
     return (
-        <div className='w-full px-[8%] mt-24'>
+        <div id='review' className='w-full px-[8%] scroll-mt-32'>
             <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
                 <SwiperSlide>
                     <div className='text-center space-y-6 py-10'>

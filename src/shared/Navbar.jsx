@@ -35,22 +35,22 @@ const Navbar = () => {
                 </a>
             </li>
             <li>
-                <a onClick={() => setMenuOpen(false)} href="#about" className="">
+                <a onClick={() => setMenuOpen(false)} href="#our_services" className="">
                     সেবা
                 </a>
             </li>
             <li>
-                <a onClick={() => setMenuOpen(false)} href="#skills" className="">
+                <a onClick={() => setMenuOpen(false)} href="#review" className="">
                     রিভিউ
                 </a>
             </li>
             <li>
-                <a onClick={() => setMenuOpen(false)} href="#projects" className="">
+                <a onClick={() => setMenuOpen(false)} href="#about_us" className="">
                     আমাদের সম্পর্ক
                 </a>
             </li>
             <li>
-                <a onClick={() => setMenuOpen(false)} href="#contact" className="">
+                <a onClick={() => setMenuOpen(false)} href="#contact_us" className="">
                     যোগাযোগ
                 </a>
             </li>
@@ -75,9 +75,9 @@ const Navbar = () => {
                 </a>
             </li>
             <li>
-                <a onClick={() => setMenuOpen(false)} href="#contact" className="bg-blue-700 text-white p-2 rounded">
+                <Link onClick={() => setMenuOpen(false)} href="/login" className="bg-blue-700 text-white p-2 rounded">
                     লগিন করুন
-                </a>
+                </Link>
             </li>
             <li>
                 <a onClick={() => setMenuOpen(false)} href="#contact" className="p-2 rounded flex text-black">

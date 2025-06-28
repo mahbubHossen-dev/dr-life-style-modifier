@@ -5,7 +5,7 @@ import React from 'react';
 const OurServices = () => {
     console.log(servicesData)
     return (
-        <div className='grid md:grid-cols-3 py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6  transition-all duration-300 gap-5 my-5'>
+        <div id='our_services' className='grid md:grid-cols-3 py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6  transition-all duration-300 gap-5 my-5 scroll-mt-32'>
             {
                 servicesData.map((service, idx) => (
                     <div key={idx} className=' text-gray-700 shadow-md hover:scale-105 transition-all duration-200 cursor-pointer space-y-4'>

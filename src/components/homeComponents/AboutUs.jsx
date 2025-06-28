@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutUs = () => {
     return (
-        <div className='md:w-1/2 m-auto  my-24'>
+        <div id='about_us' className='md:w-1/2 m-auto my-24 scroll-mt-32'>
             <h1 className=' text-3xl font-bold text-center'>আমাদের সম্পর্কে</h1>
             <div className='border border-gray-200 space-y-8'>
                 <img src="https://i.ibb.co/jv4dCkMJ/about-Image.jpg" alt="" />
