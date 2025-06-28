@@ -9,14 +9,12 @@ import OurServices from "@/components/homeComponents/OurServices";
 import SearchForm from "@/components/homeComponents/SearchForm";
 import Testimonial from "@/components/homeComponents/Testimonial";
 import YoutubeSection from "@/components/homeComponents/YoutubeSection";
-import Footer from "@/shared/Footer";
-import Navbar from "@/shared/Navbar";
-import Image from "next/image";
+
 
 export default function Home() {
   return (
     <div className="">
-      <Navbar />
+      
       <Banner />
       <LifeStyle />
       <AppointSection />
@@ -27,7 +25,7 @@ export default function Home() {
       <BookAppoint />
       <SearchForm />
       <Map />
-      <Footer />
+      
     </div>
   );
 }
