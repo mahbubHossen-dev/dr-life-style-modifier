@@ -1,6 +1,8 @@
 
+import AppointSection from "@/components/homeComponents/AppointSection";
 import Banner from "@/components/homeComponents/Banner";
 import LifeStyle from "@/components/homeComponents/LifeStyle";
+import OurServices from "@/components/homeComponents/OurServices";
 import Navbar from "@/shared/Navbar";
 import Image from "next/image";
 
@@ -10,6 +12,20 @@ export default function Home() {
       <Navbar />
       <Banner />
       <LifeStyle />
+      <AppointSection />
+      <OurServices />
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
