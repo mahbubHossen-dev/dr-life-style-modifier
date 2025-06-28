@@ -1,3 +1,5 @@
+import { FaRegCopy } from "react-icons/fa6";
+
 export const servicesData = [
   {
     "image": "https://i.ibb.co/WNT8ZbTD/diabetes.png",
@@ -145,3 +147,15 @@ export const dashboardCardsData = [
   }
 ];
 
+
+export const quickActions = [
+  { id: "1", label: "Software Version", icon: <FaRegCopy className="text-2xl mx-auto" /> },
+  { id: "2", label: "User Guide", icon: <FaRegCopy className="text-2xl mx-auto" /> },
+  { id: "3", label: "Settings", icon: <FaRegCopy className="text-2xl mx-auto" /> },
+  { id: "4", label: "Support", icon: <FaRegCopy className="text-2xl mx-auto" /> },
+  { id: "5", label: "Feedback", icon: <FaRegCopy className="text-2xl mx-auto" /> },
+  { id: "6", label: "Update", icon: <FaRegCopy className="text-2xl mx-auto" /> },
+  { id: "7", label: "Backup", icon: <FaRegCopy className="text-2xl mx-auto" /> },
+  { id: "8", label: "Logs", icon: <FaRegCopy className="text-2xl mx-auto" /> },
+  { id: "9", label: "About", icon: <FaRegCopy className="text-2xl mx-auto" /> },
+];

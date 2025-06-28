@@ -1,40 +1,14 @@
 'use client';
 
 import { dashboardCardsData } from '@/data/data';
-import React, { useEffect, useRef } from 'react';
-import { createSwapy } from 'swapy';
+import { useSwapy } from '@/hooks/useSwapy';
+import React, { useRef } from 'react';
+
 
 const SlotLayout = () => {
     const containerRef = useRef(null);
 
-    useEffect(() => {
-        if (!containerRef.current) return;
-
-        const swapy = createSwapy(containerRef.current, {
-            animation: 'dynamic',
-        });
-
-        swapy.onBeforeSwap((event) => {
-            console.log('beforeSwap', event);
-            return true;
-        });
-
-        swapy.onSwapStart((event) => {
-            console.log('start', event);
-        });
-
-        swapy.onSwap((event) => {
-            console.log('swap', event);
-        });
-
-        swapy.onSwapEnd((event) => {
-            console.log('swap end:', event);
-        });
-
-        return () => {
-            swapy.destroy();
-        };
-    }, []);
+    useSwapy(containerRef);
 
     return (
         <div
@@ -48,10 +22,10 @@ const SlotLayout = () => {
                     data-swapy-slot={`slot-${idx}`}
                 >
                     <div
-                        className="item"
+                        className="item w-full"
                         data-swapy-item={`item-${idx}`}
                     >
-                        <div className={`bg-white shadow-md rounded p-4 flex flex-col text-center`}>
+                        <div className={`bg-white shadow-md rounded p-4 flex flex-col text-center w-full`}>
                             <div className={`flex items-center justify-start gap-1 ${card.textColor}`}>
                                 <div className={`${card.bgColor} p-2 rounded-full w-10 h-10`}>
                                     {card.icon}
