@@ -4,9 +4,9 @@ const SearchForm = () => {
     return (
         <div className='px-4 mx-auto max-w-screen-2xl sm:py-16 lg:px-6 transition-all duration-300'>
             <h1 className='text-3xl font-bold text-center'>অনুসন্ধান করুন</h1>
-            <div className='grid md:grid-cols-2 gap-6 '>
-                <div>
-                    dsg
+            <div className='grid md:grid-cols-2 gap-6 place-items-center'>
+                <div className='mt-12'>
+                    <img src="https://i.ibb.co/v4J2P9rr/search-Image-removebg-preview.png" alt="" />
                 </div>
                 <div className="mt-10 md:m-auto shadow rounded p-2 w-full">
 
