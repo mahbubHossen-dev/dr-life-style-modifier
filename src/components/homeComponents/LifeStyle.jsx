@@ -6,9 +6,20 @@ const LifeStyle = () => {
         <div className='w-full px-5 lg:px8 xl:px-[11%] mt-24 mb-24 '>
             <h1 className='text-3xl font-bold text-center mb-10'>স্বাস্থ্যকর লাইফস্টাইল</h1>
             <div className='grid md:grid-cols-12 md:gap-20'>
-                <div className='col-span-5 border border-gray-300 rounded-md'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta unde voluptate autem architecto beatae quam non blanditiis odio dolores, sit quidem repellendus eius obcaecati consequuntur repellat veritatis vitae. Quisquam dolores similique earum minima consequatur obcaecati accusamus tempore fugit commodi sit cupiditate, fugiat odit nisi unde possimus molestiae ab accusantium. Temporibus dolores laudantium voluptatem praesentium ipsum itaque quas alias assumenda totam.</div>
+                <div className='col-span-4 border text-center border-gray-300 rounded-md'>
+                    <div className="w-full h-full">
+                        <iframe
+                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmdabdulkaiyumpeacelibrary&tabs=timeline&height=500&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                            className="ml-8 mt-8 w-full h-full border-0 overflow-hidden rounded-md shadow"
+                            scrolling="no"
+                            frameBorder="0"
+                            allowFullScreen={true}
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                        />
+                    </div>
+                </div>
 
-                <div className='col-span-7 border border-gray-300 rounded-md p-10 space-y-3 '>
+                <div className='col-span-8 border border-gray-300 rounded-md p-10 space-y-3 '>
                     <h1 className='text-3xl font-bold'>স্বাস্থ্যকর লাইফস্টাইল</h1>
                     <p className='font-bold'>কি আছে আমাদের লাইফ স্টাইলে? কেন ভাল হয়ে যায় লাইফ স্টাইল ও লাইফ টাইম ডিসিস গুলো। (সুস্থতার মূল মন্ত্রে সবচেয়ে গুরুত্বপূর্ণ যে বিষয়টি তা হল খাদ্যাভ্যাস)</p>
                     <ul>

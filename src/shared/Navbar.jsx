@@ -70,7 +70,7 @@ const Navbar = () => {
                 </Link>
             </li>
             <li>
-                <Link onClick={() => setMenuOpen(false)} href="#contact" className="bg-blue-700 text-white p-2 rounded">
+                <Link onClick={() => setMenuOpen(false)} href="/bmi-calculator" className="bg-blue-700 text-white p-2 rounded">
                     BMI Calculator
                 </Link>
             </li>

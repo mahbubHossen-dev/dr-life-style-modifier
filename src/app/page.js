@@ -12,9 +12,10 @@ import YoutubeSection from "@/components/homeComponents/YoutubeSection";
 
 
 export default function Home() {
+
+
   return (
-    <div className="">
-      
+    <div>
       <Banner />
       <LifeStyle />
       <AppointSection />
@@ -25,7 +26,7 @@ export default function Home() {
       <BookAppoint />
       <SearchForm />
       <Map />
-      
+
     </div>
   );
 }
