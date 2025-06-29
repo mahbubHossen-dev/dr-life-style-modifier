@@ -1,6 +1,7 @@
 import { servicesData } from '@/data/data';
 import Image from 'next/image';
 import React from 'react';
+import ServiceDialog from './ServiceDialog';
 
 const OurServices = () => {
     console.log(servicesData)
@@ -16,7 +17,8 @@ const OurServices = () => {
                         
                         
                             <p className='px-5'>{service.description.slice(1, 25)}.......</p>
-                            <button className='px-5 pb-10 text-blue-600 font-semibold'>View Details</button>
+                            
+                            <ServiceDialog service={service}/>
                         
                     </div>
                 ))

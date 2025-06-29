@@ -62,7 +62,7 @@ const Navbar = () => {
                 </Link>
             </li>
             <li>
-                <Link onClick={() => setMenuOpen(false)} href={pathname === '/' ? "#contact" : '/'} className="">
+                <Link onClick={() => setMenuOpen(false)} href='/faq' className="">
                     FAQ
                 </Link>
             </li>
