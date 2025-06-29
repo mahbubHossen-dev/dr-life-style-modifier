@@ -59,81 +59,81 @@ export default function Popup() {
         >
           
           <div className="slot" data-swapy-slot="1">
-            <div className="item cursor-grab active:cursor-grabbing select-none text-center p-2 bg-gray-100 rounded-md w-full" data-swapy-item="1">
+            <div className="item cursor-grab active:cursor-grabbing select-none text-center p-2 hover:dark:bg-gray-100 rounded-md w-full" data-swapy-item="1">
               <FaRegCopy className="text-2xl mx-auto" />
               <p className="text-gray-700 text-sm mt-1">Software Version</p>
             </div>
           </div>
 
           <div className="slot" data-swapy-slot="2">
-            <div className="item cursor-grab active:cursor-grabbing select-none text-center p-2 bg-gray-100 rounded-md w-full" data-swapy-item="2">
+            <div className="item cursor-grab active:cursor-grabbing select-none text-center p-2 hover:dark:bg-gray-100 rounded-md w-full" data-swapy-item="2">
               <img width="30" height="30" src="https://img.icons8.com/ios/50/tear-off-calendar--v1.png" alt="tear-off-calendar--v1" className="mx-auto"/>
               <p className="text-gray-700 text-sm mt-1">Book Appointment</p>
             </div>
           </div>
 
           <div className="slot" data-swapy-slot="3">
-            <div className="item cursor-grab active:cursor-grabbing select-none text-center p-2 bg-gray-100 rounded-md w-full" data-swapy-item="3">
+            <div className="item cursor-grab active:cursor-grabbing select-none text-center p-2 hover:dark:bg-gray-100 rounded-md w-full" data-swapy-item="3">
               <FaPrescriptionBottleMedical className="text-2xl mx-auto" />
               <p className="text-gray-700 text-sm mt-1">Prescription Data Add</p>
             </div>
           </div>
 
           <div className="slot" data-swapy-slot="4">
-            <div className="item cursor-grab active:cursor-grabbing select-none text-center p-2 bg-gray-100 rounded-md w-full" data-swapy-item="4">
+            <div className="item cursor-grab active:cursor-grabbing select-none text-center p-2 hover:dark:bg-gray-100 rounded-md w-full" data-swapy-item="4">
               <FaDiagnoses className="text-2xl mx-auto" />
               <p className="text-gray-700 text-sm mt-1">Diagnosis Test Add</p>
             </div>
           </div>
 
           <div className="slot" data-swapy-slot="5">
-            <div className="item cursor-grab active:cursor-grabbing select-none text-center p-2 bg-gray-100 rounded-md w-full" data-swapy-item="5">
+            <div className="item cursor-grab active:cursor-grabbing select-none text-center p-2 hover:dark:bg-gray-100 rounded-md w-full" data-swapy-item="5">
               <FaPrescriptionBottle className="text-2xl mx-auto" />
               <p className="text-gray-700 text-sm mt-1">Homa IR</p>
             </div>
           </div>
 
           <div className="slot" data-swapy-slot="6">
-            <div className="item cursor-grab active:cursor-grabbing select-none text-center p-2 bg-gray-100 rounded-md w-full" data-swapy-item="6">
+            <div className="item cursor-grab active:cursor-grabbing select-none text-center p-2 hover:dark:bg-gray-100 rounded-md w-full" data-swapy-item="6">
               <FaPrescriptionBottle className="text-2xl mx-auto" />
               <p className="text-gray-700 text-sm mt-1">Diagnosis Report Add</p>
             </div>
           </div>
 
           <div className="slot" data-swapy-slot="7">
-            <div className="item cursor-grab active:cursor-grabbing select-none text-center p-2 bg-gray-100 rounded-md w-full" data-swapy-item="7">
+            <div className="item cursor-grab active:cursor-grabbing select-none text-center p-2 hover:dark:bg-gray-100 rounded-md w-full" data-swapy-item="7">
               <GiMedicines className="text-2xl mx-auto" />
               <p className="text-gray-700 text-sm mt-1">Add Supplements</p>
             </div>
           </div>
 
           <div className="slot" data-swapy-slot="8">
-            <div className="item cursor-grab active:cursor-grabbing select-none text-center p-2 bg-gray-100 rounded-md w-full" data-swapy-item="8">
+            <div className="item cursor-grab active:cursor-grabbing select-none text-center p-2 hover:dark:bg-gray-100 rounded-md w-full" data-swapy-item="8">
               <MdGroups className="text-2xl mx-auto" />
               <p className="text-gray-700 text-sm mt-1">Add User</p>
             </div>
           </div>
 
           <div className="slot" data-swapy-slot="9">
-            <div className="item cursor-grab active:cursor-grabbing select-none text-center p-2 bg-gray-100 rounded-md w-full" data-swapy-item="9">
+            <div className="item cursor-grab active:cursor-grabbing select-none text-center p-2 hover:dark:bg-gray-100 rounded-md w-full" data-swapy-item="9">
               <MdMedicalServices className="text-2xl mx-auto" />
               <p className="text-gray-700 text-sm mt-1">Add Service</p>
             </div>
           </div>
           <div className="slot" data-swapy-slot="10">
-            <div className="item cursor-grab active:cursor-grabbing select-none text-center p-2 bg-gray-100 rounded-md w-full" data-swapy-item="10">
+            <div className="item cursor-grab active:cursor-grabbing select-none text-center p-2 hover:dark:bg-gray-100 rounded-md w-full" data-swapy-item="10">
               <MdVideoLibrary className="text-2xl mx-auto" />
               <p className="text-gray-700 text-sm mt-1">Add Video</p>
             </div>
           </div>
           <div className="slot" data-swapy-slot="11">
-            <div className="item cursor-grab active:cursor-grabbing select-none text-center p-2 bg-gray-100 rounded-md w-full" data-swapy-item="11">
+            <div className="item cursor-grab active:cursor-grabbing select-none text-center p-2 hover:dark:bg-gray-100 rounded-md w-full" data-swapy-item="11">
               <IoCreateSharp className="text-2xl mx-auto" />
               <p className="text-gray-700 text-sm mt-1">Create Appointment</p>
             </div>
           </div>
           <div className="slot" data-swapy-slot="12">
-            <div className="item cursor-grab active:cursor-grabbing select-none text-center p-2 bg-gray-100 rounded-md w-full" data-swapy-item="12">
+            <div className="item cursor-grab active:cursor-grabbing select-none text-center p-2 hover:dark:bg-gray-100 rounded-md w-full" data-swapy-item="12">
               <SiStagetimer className="text-2xl mx-auto" />
               <p className="text-gray-700 text-sm mt-1">Patient Delete Timer</p>
             </div>

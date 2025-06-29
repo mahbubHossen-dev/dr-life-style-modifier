@@ -12,7 +12,7 @@ const Footer = () => {
     return (
         <>
             {
-                !isDashboard && <footer id='contact_us' className="bg-white border-t border-gray-200 py-6 mx-auto w-full max-w-screen-2xl p-4 scroll-mt-32 ">
+                !isDashboard && <footer id='contact_us' className="bg-white dark:bg-gray-900 border-t border-gray-200 py-6 mx-auto w-full max-w-screen-2xl p-4 scroll-mt-32 ">
                     <div className="">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                             {/* Left Section */}
@@ -69,7 +69,7 @@ const Footer = () => {
                         </div>
                         <div className="flex justify-between items-center mt-6 text-gray-500 text-xs">
                             <p>© 2025 MD ABDUL KAIYUM - Peacelibrary. All Rights Reserved.</p>
-                            <FaFacebookF className='text-xl' />
+                            <FaFacebookF className='text-xl dark:text-white' />
                         </div>
                     </div>
                 </footer>

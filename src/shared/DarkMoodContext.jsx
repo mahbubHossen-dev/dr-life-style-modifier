@@ -5,7 +5,7 @@ import { createContext, useContext, useEffect, useState } from "react";
 const DarkModeContext = createContext();
 
 export const DarkModeProvider = ({ children }) => {
-  const [isDarkMood, setIsDarkMood] = useState(true);
+  const [isDarkMood, setIsDarkMood] = useState(false);
 
   useEffect(() => {
     if (localStorage.theme === 'dark') {

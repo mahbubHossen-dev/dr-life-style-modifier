@@ -33,21 +33,7 @@ const BookAppoint = () => {
                 </div>
             </div>
         </section>
-        // <div
-        //     classNameName="w-full h-[400px] bg-cover bg-center rounded-md flex items-center justify-center mb-24 "
-        //     style={{
-        //         backgroundImage: "url('/bookBg.jpg')", 
-        //     }}
-        // >
-        //     <div classNameName="px-6 py-4 text-white text-center rounded">
-        //         <h2 classNameName="text-lg md:text-xl font-bold mb-2">
-        //             চিকিৎসার জন্য নাম লেখাতে আজই অ্যাপয়েন্টমেন্ট বুক করুন
-        //         </h2>
-        //         <button classNameName="space-x-2 bg-blue-600 hover:bg-red-500 py-3 px-5 rounded font-semibold flex items-center gap-2 mx-auto">
-        //             📅 Book Appointment
-        //         </button>
-        //     </div>
-        // </div>
+
     );
 };
 

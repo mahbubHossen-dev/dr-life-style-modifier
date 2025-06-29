@@ -14,10 +14,12 @@ import menuIconWhite from '../assets/menu-white.png'
 import closeWhiteIcon from '../assets/close-white.png'
 import { MdShoppingCart } from "react-icons/md";
 import { usePathname } from 'next/navigation'
+import { useDarkMode } from './DarkMoodContext'
 
 const Navbar = () => {
     const pathname = usePathname()
-    console.log(pathname)
+    const { isDarkMood, setIsDarkMood } = useDarkMode();
+    console.log(isDarkMood)
     const [isScroll, setIsScroll] = useState(false)
     const [menuOpen, setMenuOpen] = useState(false)
 
@@ -65,7 +67,7 @@ const Navbar = () => {
                 </Link>
             </li>
             <li>
-                <Link onClick={() => setMenuOpen(false)} href="#contact" className="bg-blue-700 text-white p-2 rounded">
+                <Link onClick={() => setMenuOpen(false)} href="/appointment" className="bg-blue-700 text-white p-2 rounded">
                     বুক অ্যাপয়েন্টমেন্ট
                 </Link>
             </li>
@@ -85,7 +87,7 @@ const Navbar = () => {
                 </Link>
             </li>
             <li>
-                <Link onClick={() => setMenuOpen(false)} href="#contact" className="p-2 rounded flex text-black">
+                <Link onClick={() => setMenuOpen(false)} href="#contact" className="p-2 rounded flex text-black dark:text-white">
                     <MdShoppingCart className='text-[27px] text-blue-700' /> <span className='text-xl'>Shop Now</span>
                 </Link>
             </li>
@@ -97,8 +99,8 @@ const Navbar = () => {
             {
                 !isDashboard && <div>
                     <nav
-                        className={`flex w-full fixed px-5 justify-between items-center py-4 z-50 transition-all duration-300 bg-white border-b border-b-gray-200 ${isScroll
-                            ? 'bg-white bg-opacity-50 backdrop-blur-lg'
+                        className={` flex w-full fixed px-5 justify-between items-center py-4 z-50 transition-all duration-300 bg-white dark:bg-gray-900 border-b border-b-gray-200 ${isScroll
+                            ? 'bg-white bg-opacity-50 backdrop-blur-lg dark:text-white'
                             : ''
                             }`}
                     >
@@ -108,24 +110,22 @@ const Navbar = () => {
 
                         <div className="flex justify-between items-center">
                             <ul
-                                className={`hidden md:flex items-center md:gap-4 lg:gap-6  rounded-full py-3  bg-opacity-50 z-50 ${isScroll
-                                    ? 'bg-white'
-                                    : 'bg-white'
-                                    }`}
+                                className={`hidden dark:mr-3 md:flex items-center md:gap-6 lg:gap-8 rounded-full py-3 px-12  shadow-sm bg-opacity-50 z-50 ${isScroll || 'bg-white dark:bg-gray-900 shadow-sm bg-opacity-50 dark:border dark:border-white/50'}`}
                             >
                                 {menuLinks}
                             </ul>
                             <div className='flex'>
                                 <div>
                                     <Image
-                                        src={moonThemeIcon}
+                                        onClick={() => setIsDarkMood(!isDarkMood)}
+                                        src={isDarkMood ? sunIcon : moonThemeIcon}
                                         alt="theme"
                                         className="w-6 cursor-pointer"
                                     />
                                 </div>
 
                                 <div onClick={() => setMenuOpen(true)} className="block md:hidden ml-3">
-                                    <Image
+                                    <img
                                         src={menuBlackIcon}
                                         alt="menu"
                                         className="w-6 cursor-pointer"

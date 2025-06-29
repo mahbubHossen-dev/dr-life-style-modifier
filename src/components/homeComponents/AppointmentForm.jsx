@@ -5,7 +5,7 @@ const AppointmentForm = () => {
     return (
         <div className='pt-24'>
             <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 transition-all duration-300 ">
-                <h1 className="text-4xl text-center text-gray-800 mb-6">বুক অ্যাপয়েন্টমেন্ট</h1>
+                <h1 className="text-4xl text-center text-gray-800 mb-6 dark:text-gray-400">বুক অ্যাপয়েন্টমেন্ট</h1>
 
                 <form
                     action="https://mdabdulkaiyum.in/create/create-an-offline-appointment"

@@ -7,11 +7,11 @@ const BMICalculator = () => {
         <div className='pt-24'>
             <div className="py-8 px-4 mx-auto sm:py-16 lg:px-6">
                 <div className="max-w-screen-sm mx-auto">
-                    <div className="w-full bg-white shadow-lg rounded-lg p-6 space-y-6">
-                        <h1 className="text-3xl font-bold text-center text-gray-800">BMI Calculator</h1>
+                    <div className="w-full bg-white dark:bg-gray-900 shadow-lg rounded-lg p-6 space-y-6">
+                        <h1 className="text-3xl font-bold text-center text-gray-800 dark:text-white">BMI Calculator</h1>
 
                         {/* Input Section */}
-                        <div className="space-y-4">
+                        <div className="space-y-4 dark:text-white">
                             <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0">
                                 <input
                                     type="number"
@@ -25,8 +25,8 @@ const BMICalculator = () => {
                                 />
                             </div>
 
-                            <div className="space-y-2">
-                                <label className="block text-gray-700">Select Gender:</label>
+                            <div className="space-y-2 dark:text-white">
+                                <label className="block text-gray-700 dark:text-white">Select Gender:</label>
                                 <select className="w-full border border-gray-300 p-3 rounded-md   outline-none">
                                     <option value="male">Male</option>
                                     <option value="female">Female</option>
@@ -34,7 +34,7 @@ const BMICalculator = () => {
                             </div>
 
                             <div className="space-y-2">
-                                <label className="block text-gray-700">Age (years):</label>
+                                <label className="block text-gray-700 dark:text-white">Age (years):</label>
                                 <input
                                     type="number"
                                     placeholder="Age"
