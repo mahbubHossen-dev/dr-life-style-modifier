@@ -10,7 +10,7 @@ export default function NotificationPopup() {
   return (
     <Popover>
       <PopoverTrigger asChild>
-        <IoIosNotifications className='text-[28px]' />
+        <IoIosNotifications className='text-[28px] cursor-pointer' />
       </PopoverTrigger>
       <PopoverContent className="w-70 ">
         <div className="text-center">

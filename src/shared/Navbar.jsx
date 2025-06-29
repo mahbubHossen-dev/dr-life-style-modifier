@@ -106,9 +106,9 @@ const Navbar = () => {
                             <img src="/assets/logo.PNG" alt="" />
                         </Link>
 
-                        <div className="flex justify-between items-center gap-4">
+                        <div className="flex justify-between items-center">
                             <ul
-                                className={`hidden md:flex items-center md:gap-6 lg:gap-8 rounded-full py-3 px-12 bg-opacity-50 z-50 ${isScroll
+                                className={`hidden md:flex items-center md:gap-4 lg:gap-6  rounded-full py-3  bg-opacity-50 z-50 ${isScroll
                                     ? 'bg-white'
                                     : 'bg-white'
                                     }`}
