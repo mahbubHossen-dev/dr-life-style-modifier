@@ -1,7 +1,10 @@
+import TotalPrescriptionTable from '@/components/DashboardComponents/TotalPrescriptionTable'
 import React from 'react'
 
 export default function TotalPrescriptionPage() {
   return (
-    <div>TotalPrescriptionPage</div>
+    <div>
+      <TotalPrescriptionTable />
+    </div>
   )
 }

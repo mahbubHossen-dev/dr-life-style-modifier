@@ -18,7 +18,7 @@ const SlotLayout = () => {
             {dashboardCardsData.map((card, idx) => (
                 <div
                     key={idx}
-                    className="slot"
+                    className="slot cursor-grab"
                     data-swapy-slot={`slot-${idx}`}
                 >
                     <div

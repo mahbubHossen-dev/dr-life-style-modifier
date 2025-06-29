@@ -1,4 +1,4 @@
-import { FaRegCopy } from "react-icons/fa6";
+
 
 export const servicesData = [
   {
@@ -147,15 +147,246 @@ export const dashboardCardsData = [
   }
 ];
 
+export const prescriptionData = [
+  {
+    "id": 1,
+    "patientName": "মোহাম্মদ কামাল",
+    "age": 55,
+    "diagnosis": "টাইপ ২ ডায়াবেটিস",
+    "medicines": ["Metformin 500mg", "Glimepiride 1mg"]
+  },
+  {
+    "id": 2,
+    "patientName": "সাবিনা আক্তার",
+    "age": 43,
+    "diagnosis": "হাই ব্লাড প্রেসার",
+    "medicines": ["Amlodipine 5mg", "Losartan 50mg"]
+  },
+  {
+    "id": 3,
+    "patientName": "রফিকুল ইসলাম",
+    "age": 62,
+    "diagnosis": "জয়েন্ট ব্যথা",
+    "medicines": ["Aceclofenac", "Pantoprazole"]
+  },
+  {
+    "id": 4,
+    "patientName": "শারমিন সুলতানা",
+    "age": 35,
+    "diagnosis": "মাইগ্রেন",
+    "medicines": ["Flunarizine", "Paracetamol"]
+  },
+  {
+    "id": 5,
+    "patientName": "আজিজুর রহমান",
+    "age": 70,
+    "diagnosis": "হৃদরোগ",
+    "medicines": ["Aspirin", "Atorvastatin"]
+  },
+  {
+    "id": 6,
+    "patientName": "তানভীর হোসেন",
+    "age": 28,
+    "diagnosis": "ডিপ্রেশন",
+    "medicines": ["Escitalopram", "Clonazepam"]
+  },
+  {
+    "id": 7,
+    "patientName": "রিমা খাতুন",
+    "age": 40,
+    "diagnosis": "থাইরয়েড সমস্যা",
+    "medicines": ["Levothyroxine 50mcg"]
+  },
+  {
+    "id": 8,
+    "patientName": "আবদুল্লাহ আল মামুন",
+    "age": 50,
+    "diagnosis": "গ্যাস্ট্রিক আলসার",
+    "medicines": ["Omeprazole", "Antacid Suspension"]
+  }
+]
 
-export const quickActions = [
-  { id: "1", label: "Software Version", icon: <FaRegCopy className="text-2xl mx-auto" /> },
-  { id: "2", label: "User Guide", icon: <FaRegCopy className="text-2xl mx-auto" /> },
-  { id: "3", label: "Settings", icon: <FaRegCopy className="text-2xl mx-auto" /> },
-  { id: "4", label: "Support", icon: <FaRegCopy className="text-2xl mx-auto" /> },
-  { id: "5", label: "Feedback", icon: <FaRegCopy className="text-2xl mx-auto" /> },
-  { id: "6", label: "Update", icon: <FaRegCopy className="text-2xl mx-auto" /> },
-  { id: "7", label: "Backup", icon: <FaRegCopy className="text-2xl mx-auto" /> },
-  { id: "8", label: "Logs", icon: <FaRegCopy className="text-2xl mx-auto" /> },
-  { id: "9", label: "About", icon: <FaRegCopy className="text-2xl mx-auto" /> },
-];
+export const diagnosisData = [
+  {
+    "id": "DX001",
+    "patientName": "রহিম উদ্দিন",
+    "diagnosisDate": "2025-06-10",
+    "condition": "টাইপ ২ ডায়াবেটিস",
+    "prescribedBy": "ডাঃ আহমেদ হোসেন"
+  },
+  {
+    "id": "DX002",
+    "patientName": "সাবিনা ইয়াসমিন",
+    "diagnosisDate": "2025-06-12",
+    "condition": "উচ্চ রক্তচাপ",
+    "prescribedBy": "ডাঃ ফারজানা কবির"
+  },
+  {
+    "id": "DX003",
+    "patientName": "সোহেল রানা",
+    "diagnosisDate": "2025-06-15",
+    "condition": "অ্যাসিডিটি ও গ্যাস্ট্রিক",
+    "prescribedBy": "ডাঃ মাহফুজ রহমান"
+  },
+  {
+    "id": "DX004",
+    "patientName": "নাসিমা আক্তার",
+    "diagnosisDate": "2025-06-17",
+    "condition": "হরমোন ভারসাম্যহীনতা",
+    "prescribedBy": "ডাঃ রোকসানা আক্তার"
+  },
+  {
+    "id": "DX005",
+    "patientName": "মাহমুদুল হাসান",
+    "diagnosisDate": "2025-06-18",
+    "condition": "ডায়াবেটিস এবং হাইপারটেনশন",
+    "prescribedBy": "ডাঃ শারমিন আক্তার"
+  },
+  {
+    "id": "DX006",
+    "patientName": "তামান্না সুলতানা",
+    "diagnosisDate": "2025-06-20",
+    "condition": "থাইরয়েড সমস্যা",
+    "prescribedBy": "ডাঃ কায়সার মাহমুদ"
+  },
+  {
+    "id": "DX007",
+    "patientName": "মিজানুর রহমান",
+    "diagnosisDate": "2025-06-21",
+    "condition": "হার্টবিট অনিয়মিতা",
+    "prescribedBy": "ডাঃ সালাউদ্দিন"
+  },
+  {
+    "id": "DX008",
+    "patientName": "জাহানারা বেগম",
+    "diagnosisDate": "2025-06-25",
+    "condition": "স্নায়বিক দুর্বলতা",
+    "prescribedBy": "ডাঃ রফিকুল ইসলাম"
+  }
+]
+
+export const totalPatient = [
+  {
+    "id": "P001",
+    "name": "রহিম উদ্দিন",
+    "age": 52,
+    "gender": "পুরুষ",
+    "phone": "+8801712345678",
+    "registeredDate": "2025-06-01"
+  },
+  {
+    "id": "P002",
+    "name": "সাবিনা ইয়াসমিন",
+    "age": 45,
+    "gender": "মহিলা",
+    "phone": "+8801912345678",
+    "registeredDate": "2025-06-03"
+  },
+  {
+    "id": "P003",
+    "name": "সোহেল রানা",
+    "age": 38,
+    "gender": "পুরুষ",
+    "phone": "+8801812345678",
+    "registeredDate": "2025-06-05"
+  },
+  {
+    "id": "P004",
+    "name": "নাসিমা আক্তার",
+    "age": 34,
+    "gender": "মহিলা",
+    "phone": "+8801612345678",
+    "registeredDate": "2025-06-06"
+  },
+  {
+    "id": "P005",
+    "name": "মাহমুদুল হাসান",
+    "age": 50,
+    "gender": "পুরুষ",
+    "phone": "+8801512345678",
+    "registeredDate": "2025-06-08"
+  },
+  {
+    "id": "P006",
+    "name": "তামান্না সুলতানা",
+    "age": 29,
+    "gender": "মহিলা",
+    "phone": "+8801301234567",
+    "registeredDate": "2025-06-10"
+  },
+  {
+    "id": "P007",
+    "name": "মিজানুর রহমান",
+    "age": 62,
+    "gender": "পুরুষ",
+    "phone": "+8801201234567",
+    "registeredDate": "2025-06-12"
+  },
+  {
+    "id": "P008",
+    "name": "জাহানারা বেগম",
+    "age": 55,
+    "gender": "মহিলা",
+    "phone": "+8801101234567",
+    "registeredDate": "2025-06-15"
+  }
+]
+
+export const pendingAppoinmentsData = [
+  {
+    "id": "A101",
+    "patientName": "রহিম উদ্দিন",
+    "date": "2025-07-01",
+    "time": "10:00 AM",
+    "status": "Pending"
+  },
+  {
+    "id": "A102",
+    "patientName": "সাবিনা ইয়াসমিন",
+    "date": "2025-07-01",
+    "time": "11:30 AM",
+    "status": "Pending"
+  },
+  {
+    "id": "A103",
+    "patientName": "সোহেল রানা",
+    "date": "2025-07-01",
+    "time": "12:00 PM",
+    "status": "Pending"
+  },
+  {
+    "id": "A104",
+    "patientName": "নাসিমা আক্তার",
+    "date": "2025-07-01",
+    "time": "02:30 PM",
+    "status": "Pending"
+  },
+  {
+    "id": "A105",
+    "patientName": "মাহমুদুল হাসান",
+    "date": "2025-07-02",
+    "time": "09:00 AM",
+    "status": "Pending"
+  },
+  {
+    "id": "A106",
+    "patientName": "তামান্না সুলতানা",
+    "date": "2025-07-02",
+    "time": "10:30 AM",
+    "status": "Pending"
+  },
+  {
+    "id": "A107",
+    "patientName": "মিজানুর রহমান",
+    "date": "2025-07-02",
+    "time": "11:45 AM",
+    "status": "Pending"
+  },
+  {
+    "id": "A108",
+    "patientName": "জাহানারা বেগম",
+    "date": "2025-07-02",
+    "time": "01:00 PM",
+    "status": "Pending"
+  }
+]

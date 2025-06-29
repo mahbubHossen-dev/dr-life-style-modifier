@@ -57,7 +57,7 @@ export default function Popup() {
           ref={containerRef}
           className="grid grid-cols-3 gap-4"
         >
-          {/* Manually created slot + item structure with swapy attributes */}
+          
           <div className="slot" data-swapy-slot="1">
             <div className="item cursor-grab active:cursor-grabbing select-none text-center p-2 bg-gray-100 rounded-md w-full" data-swapy-item="1">
               <FaRegCopy className="text-2xl mx-auto" />
